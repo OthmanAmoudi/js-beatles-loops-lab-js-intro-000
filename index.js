@@ -20,7 +20,7 @@ function iLoveTheBeatles(n){
   var array = [];
   do {
     array.push("I love the Beatles!");
-  } while ((array.length + 1) < n )
+  } while (n<array.length)
 
 return array;
 
